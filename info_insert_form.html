@@ -1,0 +1,37 @@
+<!-- Information Insert Form-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Registration Form</title>
+</head>
+<body style="background-color:black;">
+        <h1 style="text-align:center;color:greenyellow">User Registration Form</h1>
+    <form action="info_insert.php" method="post" style="color:dodgerblue ; border-width:70px;border-top:100px; border-style:solid; border-color:rgba(134, 0, 0, 0.843);margin-top:60px ;margin-left:200px;margin-right:200px; padding-top: 10px;">
+        <h2>Enter your  Full Name</h2>
+        <input type="text" name="fname" required><br><br>
+        <h2>Enter your Email Address: </h2>
+        <input type="email" name="email" required><br><br>
+        <h2>Enter your phone Number</h2>
+        <input type="text" name="pnumber" required><br><br>
+        <h2> Enter Your Gender</h2><br>
+        <input type="radio" name="gender" value="MALE" id="MALE">
+        <label for="MALE" >MALE</label><br><br>
+        <input type="radio" name="gender" value="FEMALE" id="FEMALE">
+        <label for="FEMALE" >FEMALE</label><br><br>
+        <input type="radio" name="gender" value="OTHER" id="OTHER">
+        <label for="OTHER" >OTHER</label><br><br>
+       
+        <h2>Enter Your Profession</h2><br>
+        <select name="profession" >
+            <option value="Working">Working</option>
+            <option value="Non-working">Non-working</option>
+        </select>
+        <br><br><br>
+        <input type="submit">
+
+
+    </form>
+    
+</body>
+</html>

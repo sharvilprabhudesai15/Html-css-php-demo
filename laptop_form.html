@@ -1,0 +1,38 @@
+<!-- Laptop Insert Form-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Laptop Form</title>
+</head>
+<body>
+
+    <form action="laptop_insert.php" method="post">
+        <h2>Enter  Name</h2>
+        <input type="text" name="lname" required><br><br>
+        <h2>Enter serial Number: </h2>
+        <input type="text" name="serialno" required><br><br>
+        <h2>Enter Price </h2>
+        <input type="text" name="price" required><br><br>
+        <h2> Enter Ram Size</h2><br>
+        <input type="radio" name="ram" value="16GB" id="16GB">
+        <h2 for="16GB" >16GB</h2><br>
+        <input type="radio" name="ram" value="32GB" id="32GB">
+        <h2 for="32GB" >32GB</h2><br>
+        <input type="radio" name="ram" value="64GB" id="64GB">
+        <h2 for="64GB" >64GB</h2><br><br>
+       
+        <h2>Enter Laptop Storage</h2><br>
+        <select name="storage" >
+            <option value="256GB">256GB</option>
+            <option value="512GB">512GB</option>
+            <option value="1TB">1TB</option>
+        </select>
+        <br><br>
+        <input type="submit">
+
+
+    </form>
+    
+</body>
+</html>
